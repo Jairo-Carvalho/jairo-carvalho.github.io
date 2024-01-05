@@ -4,26 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jairo Carvalho Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <a href="#sobremim">Sobre mim</a>
     <a href="#portfolio">Portfólio</a>
     <a href="#contato">Contato</a>
     <h1>Portfolio Jairo Carvalho</h1>
-    <p id="nome">Nome: <b>Jairo Carvalho Dourado</b></p>
-    <a href="#foto"
-      ><img
-        src="./img/Design_sem_nome-removebg-preview.png"
-        alt="foto Jairo"
-        width="200px"
-        id="foto"
-    /></a>
-    <p>
-      Tenho 42 anos, sou casado, tenho uma filha de 13 anos, sou
-      <b>Brasileiro</b>, natural de <b>Belém-PA</b>, formado em Design Gráfico,
-      atualmente moro em <b><em>Florianópolis-SC</em></b
-      >.
-    </p>
+    <div class="nome">
+      <p id="nome">Nome: <b>Jairo Carvalho Dourado</b></p>
+    </div>
+    <div class="foto-container">
+      <a href="#foto"><img
+          class="minha-foto"
+          src="./img/Design_sem_nome-removebg-preview.png"
+          alt="foto Jairo"
+          id="foto"
+      /></a>
+    </div>
+    <div class="descricao">
+      <p>
+        <b>Brasileiro</b>, 42 anos, marido da Thaís, pai da Gaia, graduado em <em>Design Gráfico</em>, natural de <b><em>Belém-PA</em></b>.<br />
+        Formado em Desenvolvimento Web Full Stack.
+      </p>
+    </div>
     <h2 id="habilidades">Principais Habilidades</h2>
     <ul>
       <li><b>Comunicação</b></li>
@@ -33,8 +37,6 @@
       <li>Inteligência emocional</li>
     </ul>
 
-    <a href="https://www.linkedin.com/in/jairocdourado/" target="_blank"
-      ><p>linkedIn</p></a
-    >
+    <a href="https://www.linkedin.com/in/jairocdourado/" target="_blank"><p>linkedIn</p></a>
   </body>
 </html>
